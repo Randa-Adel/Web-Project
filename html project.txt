@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Randa Adel Abd El-Aziz</title>
+    <meta charset="utf-8" />
+    <meta name="vioport" content="width=device-width,initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/Style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/all.min.js"></script>
+  </head>
+
+  <body style="margin: 0">
+    <!--start navbar-->
+    <div class="navbar">
+      <ul>
+        <div class="container">
+          <li><a href="#name">Name</a></li>
+          <li><a href="#data">Personal Data</a></li>
+          <li><a href="#interisting">Interistings</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </div>
+      </ul>
+    </div>
+    <!--end navbar-->
+    <div style="clear: both"></div>
+    <!--start header-->
+    <div class="header" id="name">
+      <div class="container">
+        <img src="Image/randa.jpeg" />
+        <h1>Randa Adel Abd El-Aziz</h1>
+      </div>
+    </div>
+    <!--end header-->
+    <div style="clear: both"></div>
+    <!--start skills-->
+    <div class="skills" id="data">
+      <div class="container">
+        <h1>Personal Data</h1>
+        <div class="two">
+          <span>My Education : </span>
+          <br />
+          Faculty Of Computer And Information Technology
+          <br />
+          GPA: 3.95
+        </div>
+        <div class="two">
+          <span>My Skills : </span>
+          <br />
+          C++ , Python , SQL , HTML , CSS
+
+          <br />
+        </div>
+      </div>
+    </div>
+    <!--end skills-->
+    <div style="clear: both"></div>
+    <!--start interisting-->
+    <div class="inter" id="interisting">
+      <div class="container">
+        <h1>Interisting</h1>
+        <div class="three">
+          <i class="fas fa-plane-departure myicon"></i>
+          <h3>Travelling</h3>
+        </div>
+        <div class="three">
+          <i class="fas fa-book myicon"></i>
+          <h3>Reading</h3>
+        </div>
+        <div class="three">
+          <i class="far fa-futbol myicon"></i>
+          <h3>Football</h3>
+        </div>
+      </div>
+    </div>
+    <!--end interisting-->
+    <div style="clear: both"></div>
+
+    <!--start contact-->
+    <div class="contact" id="contact">
+      <div class="container">
+        <div class="two">
+          <h2>Randa Adel Abd El-Aziz</h2>
+          <h4>01065078711</h4>
+          <h4>randa6457@gmail.com</h4>
+        </div>
+        <div class="two">
+          <form>
+            <textarea
+              cols="30"
+              rows="10"
+              placeholder="Add Comment !"
+            ></textarea>
+            <button>Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--end contact-->
+    <div style="clear: both"></div>
+
+    <!--start footer-->
+    <div class="footer">
+      <h5>Copy Right &copy;Randa Adel</h5>
+    </div>
+    <!--end footer-->
+    <div style="clear: both"></div>
+  </body>
+</html>
