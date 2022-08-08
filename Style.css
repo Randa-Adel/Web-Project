@@ -1,0 +1,140 @@
+* {
+  font-family: "Sriracha", Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+/* start navbar */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: rgba(44, 18, 18, 0.9);
+  opacity: 90%;
+  height: 50px;
+}
+.navbar li {
+  float: left;
+}
+.navbar li a {
+  display: block;
+  text-decoration: none;
+  color: #fffbfb;
+  font-weight: bold;
+  padding: 11px 16px;
+}
+.navbar li a:hover {
+  color: #ba6b6c;
+  background: #f0dddc;
+  box-shadow: 10px 10px 50px rgb(68, 45, 45);
+}
+.navbar {
+  box-shadow: 4px 4px 20px rgb(68, 45, 45);
+}
+/* end navbar */
+/* start header */
+.header {
+  padding: 20px 10px;
+  text-align: center;
+  box-shadow: 10px 10px 50px rgb(68, 45, 45);
+  background: #e9d8dd;
+}
+.header img {
+  height: 420px;
+  width: 360px;
+  border-radius: 60%;
+}
+.header h1 {
+  color: #994a4b;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #dd9a9b;
+}
+/* end header */
+/* start skills */
+.skills {
+  margin-top: 50px;
+}
+.skills h1 {
+  color: #994a4b;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #dd9a9b;
+}
+.skills .two {
+  width: 50%;
+  float: left;
+  color: #c97776;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+.skills .two span {
+  font-weight: bold;
+  color: #b16664;
+}
+/* end skills */
+/* start interisting */
+.inter h1 {
+  color: #994a4b;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #dd9a9b;
+}
+.inter .three {
+  width: 30%;
+  float: left;
+  margin: 30px 10px 10px 10px;
+  text-align: center;
+  color: #b16664;
+}
+.inter .myicon {
+  font-size: 40px;
+  color: #994a4b;
+}
+/* end interisting */
+
+/* start contact */
+.contact {
+  background: rgba(44, 18, 18, 0.9);
+
+  min-height: 235px;
+  margin-top: 30px;
+}
+.contact .two {
+  width: 50%;
+  float: left;
+}
+.contact h2,
+.contact h4 {
+  color: antiquewhite;
+}
+.contact .two textarea {
+  display: block;
+  color: #642526;
+  border: 0;
+  margin: 15px 0;
+  padding: 5px;
+  border-radius: 10px;
+  outline: 0;
+  height: 157px;
+}
+.contact .two button {
+  padding: 5px 10px;
+  background: #e2a8a7;
+  color: #551819;
+  font-weight: bold;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+}
+/* end contact */
+
+/* start footer */
+.footer h5 {
+  margin: 0;
+  background: black;
+  color: #f0dddc;
+  padding: 5px 0;
+  text-align: center;
+}
+
+/* end footer */
